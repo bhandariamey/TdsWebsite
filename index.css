@@ -24,3 +24,79 @@
 .nav-link:hover{
     color: #cda274
 }
+
+#hero-section{
+    position: relative;
+}
+
+#hero-section img{
+    background-image: url("./photos/heroImage.jpg");
+    border-radius: 0 0 0 290px;
+    width: 100%;
+    height: auto;
+}
+
+.hero-title{
+    position: absolute;
+    left: 7%;
+    top: 20%;
+    width: 50vw;
+    font-size: 5vw;
+    line-height: 1.2;
+    font-family:"DM Serif Display";
+    font-weight: 600;
+    color: #292f36;;
+}
+
+.hero-description{
+    position: absolute;
+    left: 7%;
+    top: 44%;
+    font-size: 1.6vw;
+    font-family:"Jost";
+    color: #4d5053;
+    width: 50vw;
+}
+
+.hero-button{
+    position: absolute;
+    left: 7%;
+    top: 56%;
+    border-radius: 20px;
+    padding: 10px 40px 10px 20px;
+    background-image: url("./photos/heroButtonWand.svg");
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+
+@media(max-width: 991px){
+    #hero-section img{
+        border-radius:  0 0 0 0;
+    }
+    .hero-area{
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+
+    .hero-button{
+        position: absolute;
+        border-radius: 15px;
+        padding: 7px 30px 7px 10px;
+        background-image: url("./photos/heroButtonWand.svg");
+        font-size: 1.6vw;
+    }
+}
+
+@media(max-width: 500px){
+
+    .hero-button{
+        position: absolute;
+        left: 7%;
+        top: 56%;
+        border-radius: 15px;
+        padding: 7px 15px 7px 15px;
+        background-image: none
+    }
+}
