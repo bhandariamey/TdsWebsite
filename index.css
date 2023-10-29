@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: #4d5053;
+}
+
 .navbar{
     padding: 20px 0px
 }
@@ -136,10 +141,7 @@
     justify-content: center;
     padding-left: 30px;
 }
-.intro-call-details a {
-    text-decoration: none;
-    color: #4d5053;
-}
+
 .intro-number{
     padding-bottom: 10px;
     letter-spacing: .01em;
@@ -244,6 +246,70 @@
     line-height: 1.5;
 }
 
+.recent-project-header{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "DM Serif Display";
+    font-weight: 600;
+}
+
+.recent-project-quote{
+    color: #4d5053;
+    letter-spacing: .01em;
+    font-family: "jost";
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sites{
+    margin-top: 50px
+}
+
+.sites img{
+    border-radius: 0px 80px 0px 0px;
+}
+
+.site-desc{
+    color: #292f36;;
+    letter-spacing: .01em;
+    font-family: "jost";
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: 600;
+    transition: color .2s;
+}
+
+.site-style{
+    color: #4d5053;
+    letter-spacing: .01em;
+    font-family: "jost";
+    font-size: 22px;
+    line-height: 1.5;
+    transition: color .2s;
+}
+
+.arrow-right{
+    background-color:#f4f0ec;
+    background-image: url("./photos/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+}
+
+.arrow-right-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
 @media(max-width: 992px){
     #hero-section img{
         border-radius:  0 0 0 0;
@@ -267,11 +333,15 @@
         text-align: left;
     }
 
-
+    .arrow-right-div{
+        display: flex;
+        justify-content: flex-start;
+    }
     
 }
 
 @media(max-width: 768px){
+    
 
     .hero-button{
         position: absolute;
@@ -289,6 +359,13 @@
     }
 
     .review-header{
+        font-size: 40px;
+    }
+
+    .recent-project-quote{
+        font-size: 18px;
+    }
+    .recent-project-header{
         font-size: 40px;
     }
 
@@ -322,6 +399,11 @@
 
     .review-header{
         font-size: 30px;
+    }
+
+    .arrow-right{
+        width: 60px;
+        height: 60px;
     }
 }
 
