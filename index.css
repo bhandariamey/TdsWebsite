@@ -187,6 +187,62 @@
 }
 
 
+.review-section{
+    margin-top:150px;
+    background-color: #f4f0ec ;
+    border-radius: 50px;
+    color: #292f36;
+
+}
+
+.review-header{
+    padding: 100px 0 50px ;
+    text-align: center;
+    font-size: 50px;
+    font-family: "DM Serif Display";
+    font-weight: 600;
+}
+
+.review-items{
+    background-color: #fff;
+    border-radius: 50px;
+    margin-bottom: 150px;
+    padding: 30px 40px;
+    border: 20px solid #f4f0ec ;
+}
+
+.review-item-photo img{
+    border-radius: 50%;
+    width:80px;
+}
+
+.review-item-name{
+    color: #292f36;
+    font-size: 25px;
+    font-family: "DM Serif Display";
+    font-weight: 600;
+    line-height: 1.5;
+    padding-left: 25px;
+}
+
+.review-item-location{
+    color: #292f36;
+    font-size: 20px;
+    font-family: "jost";
+    line-height: 1.5;
+    color: #4d5053;
+    letter-spacing: .01em;
+    padding-left: 25px;
+}
+
+.review-item-body{
+    padding-top: 20px;
+    color: #4d5053;
+    letter-spacing: .01em;
+    font-family: "jost";
+    font-size: 22px;
+    line-height: 1.5;
+}
 
 @media(max-width: 992px){
     #hero-section img{
@@ -205,6 +261,13 @@
     .free-estimate-button{
         margin-bottom: 30px;
     }
+    .review-item-body{
+        padding-top: 10px;
+        padding-left: 25px;
+        text-align: left;
+    }
+
+
     
 }
 
@@ -224,6 +287,11 @@
     .intro-section-body{
         text-align: left;
     }
+
+    .review-header{
+        font-size: 40px;
+    }
+
 }
 
 @media(max-width: 500px){
@@ -250,7 +318,11 @@
     .free-estimate-button{
         font-size: 15px;
         font-weight: 400;
-}
+    }
+
+    .review-header{
+        font-size: 30px;
+    }
 }
 
 
