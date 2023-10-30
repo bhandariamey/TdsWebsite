@@ -3,7 +3,7 @@ console.log("code in js")
 const client_details = [
     {
         project_name : "Thunderstorm",
-        project_style: "Art Modern",
+        project_style: "Modern",
         main_image : "./photos/sites/thunderstorm.jpg",
         client_name : "Mr. Jain",
         date : 2020,
@@ -15,8 +15,8 @@ const client_details = [
 
     },
     {
-        project_name : "Aapli",
-        project_style: "Minimalist",
+        project_name : "Aapla ghar",
+        project_style: "Warm",
         main_image : "./photos/sites/aapli.jpg",
         client_name : "Mr. Sheth",
         date : "Sept. 2023",
@@ -27,8 +27,8 @@ const client_details = [
     },
 
     {
-        project_name : "BlueBird",
-        project_style: "Light House",
+        project_name : "Light House",
+        project_style: "Breezy, elegant",
         main_image : "./photos/sites/BlueBird.jpeg",
         client_name : "Mr. Desarda",
         date : "Sept. 2023",
@@ -39,8 +39,8 @@ const client_details = [
     },
 
     {
-        project_name : "Mantra Monarch",
-        project_style: "Home",
+        project_name : "Dream Room",
+        project_style: "Quaint",
         main_image : "./photos/sites/MantraMonarch.jpg",
         client_name : "Mr. Ghotkar",
         date : "Nov. 2023",
@@ -52,19 +52,6 @@ const client_details = [
 
 
 ]
-
-// // <div class="col-md-6 col-sm-12">
-
-// <a href="#"><img src="./photos/sites/thunderstorm.jpg" width="100%" alt="site1"></a>
-// <div class="row" style="margin-top: 20px;">
-//   <div class="col">
-//     <a href="#"><h2 class="site-desc">Fit Haven Thunderstorm</h2></a>
-//     <a href="#"><p class="site-style">Art Modern</p></a>
-//   </div>
-//   <div class="col-md-6 col-sm-12 arrow-right-div"><a href="#"><button class="arrow-right"></button></a></div>
-// </div>
-
-// </div>
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -87,5 +74,9 @@ document.addEventListener('DOMContentLoaded', function() {
         `
         sites_div.appendChild(div);
     });
+
+    
+
 });
+
 

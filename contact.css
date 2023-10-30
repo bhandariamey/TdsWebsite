@@ -1,0 +1,87 @@
+.background-image{
+    position: relative;
+    background-image: url("./photos/contactUs/61a486a91df7a9868e2134f5_contactus-background.jpg");
+    padding-top: 350px;
+}
+
+.contact-us-header{
+    position: absolute;
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.6;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    width: 500px;
+    min-width: 500px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 37px 37px 0 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.connect-container{
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+   
+}
+
+.form-block{
+    margin-bottom: 20px;
+}
+
+.form-input-field, .form-text-area textarea{
+    height: 65px;
+    min-height: 0;
+    color: #4d5053;
+    letter-spacing: .01em;
+    background-color: transparent;
+    border: 1px #000;
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+    padding-left: 0;
+    font-family: "jost";
+    font-size: 22px;
+    line-height: 1.5;
+    width: 100%;
+    outline: none;
+}
+
+.submit-button{
+    position: relative;
+    background-color: #292f36;
+    color: #fff;
+    padding: 15px 40px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+}
+
+
+@media(max-width: 768px){
+    .contact-us-header{
+        font-size: 40px;
+        width: 400px;
+        min-width: 400px;
+    }
+}
+
+@media(max-width: 500px){
+    .contact-us-header{
+        font-size: 30px;
+        width: 300px;
+    min-width: 300px;
+    }
+}
