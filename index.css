@@ -75,6 +75,7 @@ a {
     background-position: 90% 50%;
     background-color: #BAB7B2;
     border: none;
+    box-shadow: 2px 2px 3px black;
 }
 
 .service-row :hover{
@@ -193,15 +194,14 @@ a {
         font-weight: 600;
         transition: color .2s;
         margin: 40px 0px 0px 30px;
+        box-shadow: 2px 2px 3px #999;
 }
-
 
 .review-section{
     margin-top:150px;
     background-color: #f4f0ec ;
     border-radius: 50px;
     color: #292f36;
-
 }
 
 .review-header{
@@ -334,6 +334,22 @@ a {
 
 .justify-content-evenly{
     padding-right: 30px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    background-image: url("./photos/upArrow.png");
+    background-repeat: no-repeat;
+    bottom: 10px;
+    right: 10px;
+    background-position: 50%;
+    background-color: #f4f0ec;;
+    padding: 30px;
+    border-radius: 50% 0 0 0;
+    background-size: 40%;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1;
+    border: none;
 }
 
 

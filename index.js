@@ -49,12 +49,18 @@ const client_details = [
             
         }
     }
-
-
 ]
 
+document.addEventListener('DOMContentLoaded', ()=> {
 
-document.addEventListener('DOMContentLoaded', function() {
+    var scroll_top = document.querySelector(".scroll-to-top");
+    scroll_top.addEventListener("click",(e)=>{
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        })
+    })
+
     var sites_div = document.querySelector(".sites"); 
     client_details.forEach((site) => {
         var div = document.createElement("div");
