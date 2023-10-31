@@ -41,7 +41,7 @@ const client_details = [
     {
         project_name : "Dream Room",
         project_style: "Quaint",
-        main_image : "./photos/sites/MantraMonarch.jpg",
+        main_image : "./photos/sites/DreamRoom.jpg",
         client_name : "Mr. Ghotkar",
         date : "Nov. 2023",
         description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         div.setAttribute("class", "col-md-6 col-sm-12");
         div.innerHTML =
          `
-            <a href="#"><img src="${site.main_image}" width="100%" alt="${site.project_name}"></a>
+            <a href="#"><img src="${site.main_image}" width="100%" height="80%" alt="${site.project_name}"></a>
             <div class="row" style="margin-top: 20px;">
                 <div class="col">
                     <a href="#"><h2 class="site-desc">${site.project_name}</h2></a>
