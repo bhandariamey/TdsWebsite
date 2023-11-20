@@ -22,7 +22,7 @@ blockquote{
     margin-top: 150px;
     margin-bottom: 150px;
     padding: 120px 60px 60px;
-    font-family: DM Serif Display,sans-serif;
+    font-family: "DM Serif Display";
     font-size: 25px;
     line-height: 1.6;
    }
@@ -45,7 +45,7 @@ blockquote{
    .before-desc, .after-desc{
     color: #4d5053;
     letter-spacing: .01em;
-    font-family: "jost";
+    font-family: "Jost";
     font-size: 22px;
     line-height: 1.5;
    }
@@ -63,7 +63,7 @@ blockquote{
     background-repeat: no-repeat;
     background-position: 90%;
     padding: 20px 50px 20px 15px;
-    font-family: "jost";
+    font-family: "Jost";
     
 }
 
@@ -128,8 +128,24 @@ blockquote{
     border-radius: 25px;
 }
 
+.form-block p{
+    text-align: center;
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    margin-top: 40px
+}
+
 @media (max-width: 991px) {
     .before-image img, .after-image img {
       margin-top: 30px;
+    }
+
+    .form-block p{
+       
+        font-size: 30px;
     }
   }

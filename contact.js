@@ -13,11 +13,6 @@ document.addEventListener("DOMContentLoaded",()=>{
    // console.log("working till here")
 
     contact_form.addEventListener("submit",(e)=>{
-        e.preventDefault();
-        var form_elements = e.target.elements
-
-        for(let i=0;i<form_elements.length;i++){
-            console.log(form_elements[i].name, form_elements[i].value)
-        }
+   // contact_form.reset();
     })
 })

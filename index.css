@@ -347,7 +347,7 @@ a {
     padding: 30px;
     border-radius: 50% 0 0 0;
     background-size: 40%;
-    box-shadow: 2px 2px 3px #999;
+    box-shadow: 2px 2px 2px 3px #999;
     z-index: 1;
     border: none;
 }
