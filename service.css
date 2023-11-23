@@ -1,0 +1,88 @@
+.background-image{
+    position: relative;
+    background-image: url("https://assets-global.website-files.com/6194e0af852e05a5be106504/61a483cb41077d907a98f096_service-background.jpg") !important ;
+    padding-top: 350px;
+}
+
+.how-we-work{
+    background-color: #f4f0ec;
+    border-radius: 25px;
+    margin-top: 50px  !important
+}
+
+.title{
+    text-align: center;
+    color: #292f36;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 80px;
+}
+
+.description{
+    text-align: center;
+    color: #4d5053;
+    letter-spacing: .01em;
+    font-family: "Jost";
+    font-size: 22px;
+    line-height: 1.5;
+    margin: 30px 100px;
+    padding: 20px 0px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.step_number{
+    color:#292f36;
+    font-family: "DM Serif Display";
+    font-size: 80px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.step_name{
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.step_svg{
+    padding: 20px 0px;
+    height:120px;
+}
+
+.step_image img{
+    border-radius:  0 123px 0 123px;
+}
+
+.step_image{
+    display: flex;
+    justify-content: center;
+}
+
+.step_desc{
+    color: #292f36;
+    font-family: "Jost";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 80%;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+@media(max-width: 748px){
+    .description{
+        margin: 30px 80px;
+        padding: 20px 10px; 
+    }
+}
