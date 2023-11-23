@@ -36,7 +36,7 @@
 }
 
 .step_number{
-    color:#292f36;
+    color:#fff;
     font-family: "DM Serif Display";
     font-size: 80px;
     font-weight: 400;
@@ -74,10 +74,7 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;
-    width: 80%;
-    text-align: left;
     margin-top: 30px;
-
 }
 
 @media(max-width: 748px){
