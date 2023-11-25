@@ -51,6 +51,30 @@ const client_details = [
     }
 ]
 
+const client_reviews = [
+    {
+        image: "https://www.svgrepo.com/show/157053/avatar.svg",
+        name: "Shivani Navlakha",
+        location: "Chicago, USA",
+        review: "Her work is very artistic and unique. She really listened and made my place perfect. Easy to work with, plus great taste with an ability to offer quality over quantity."
+    },
+
+    {
+        image: "https://www.svgrepo.com/show/27220/avatar.svg",
+        name: "Raj Bajaj",
+        location: "Sydney, AUS",
+        review: "Organised planning and time bound execution. The team exceeded our expectations and overcame every onsite problem with an optimistic approach."
+    },
+
+    {
+        image: "https://i.pinimg.com/564x/96/5b/f0/965bf0ffaa83d1a76d7bcaf9c30c9436.jpg",
+        name: "Kishor Desarda",
+        location: "Pune, IN",
+        review: "Their work reflects ultimate level of sophistication & uniqueness. Sanjana made sure every requirement was understood & fulfilled."
+    }
+]
+
+
 document.addEventListener('DOMContentLoaded', ()=> {
 
     var scroll_top = document.querySelector(".scroll-to-top");
@@ -81,7 +105,36 @@ document.addEventListener('DOMContentLoaded', ()=> {
         sites_div.appendChild(div);
     });
 
-    
+    const reviews = document.getElementById("review-header-main-child")
+
+    client_reviews.forEach((client)=>{
+        var div = document.createElement("div");
+        div.setAttribute("class", "col-lg-4 col-md-6 col-sm-12 review-items");
+        div.innerHTML = 
+        `
+        <div class="row">
+        <div class="col-lg-4 review-item-photo">
+          <img src=${client.image} alt="Name">
+        </div>
+        <div class="col d-flex flex-column" style="justify-content: center;">
+          <div class="row review-item-name">${client.name}</div>
+          <div class="row review-item-location">${client.location}</div>
+          <div style="padding-left: 15px;">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <p class="review-item-body">${client.review}</p>
+      </div>
+        `
+
+        reviews.append(div)
+    })
 
 });
 
