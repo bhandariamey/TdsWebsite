@@ -13,43 +13,8 @@
     <title>About Us TDS</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-           <div d-flex justify-content-between>
-            <img width=15% src="https://static.thenounproject.com/png/1919504-200.png" alt="">
-            <a class="navbar-brand" href="./index.html">The Design Spell</a>
-           </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-  
-              <li class="nav-item">
-                
-                <a class="nav-link active" href="./index.html">Home</a>
-              </li>
-  
-              <li class="nav-item">
-                <a class="nav-link" href="/aboutUs.html">About Us</a>
-              </li> 
-              
-              <li class="nav-item">
-                <a class="nav-link" href="/service.html">Services</a>
-              </li> 
-  
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pages</a>
-              </li> 
-  
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Contact Us</a>
-              </li> 
-            </ul>
-           
-          </div>
-        </div>
-    </nav>
+  <nav id="navbar" class="navbar navbar-expand-lg">
+  </nav>
 
       
   <div>
@@ -144,52 +109,20 @@
 
     <div class="form-block container p-5">
       <p >Creative Project? Let's have a <br>productive talk.</p>
-      <form id="user-details" action="https://formspree.io/f/xdorvbgq" method="POST">
-        <div class="row">
-            <div class="col-lg-6 input-block">  
-                <input class="form-input-field" type="text" maxlength="200" name="Name" placeholder="Name" id="userName" required>
-               </div>
-               <div class="col-lg-6 input-block">
-                <input class="form-input-field" type="email" maxlength="200" name="Email" placeholder="Email" id="userEmail" required>
-               </div>
-               <div class="col-lg-6 input-block">
-                <input class="form-input-field" type="number" name="Contact" placeholder="Phone" id="userPhone" required>
-               </div>
-               <div class="col-lg-6 input-block">
-                <input class="form-input-field" type="number" name="Project_Area" placeholder="Project area (sqft)" id="userSubject" required>
-               </div>
-               <div class="form-text-area">
-                <textarea class="col-lg-6" name="Interested_In" id="userfield" maxlength="5000" placeholder="Hello, I am Interested in..."></textarea>
-               </div>
-               <div class="contact-form-button">
-               <button class="submit-button" type="submit">Submit</button>
-               </div>
-
-           </div>
-        </form>
+      <div id="form-block"></div>
     </div>
 
-    <div class="contact-us container mb-5">
-        <h2 style="font-size: 26px; font-family: DM Serif Display; font-weight: 600; line-height: 1.5; text-align: center; margin-top: 40px; margin-bottom: 30px;">Contact Us</h2>
-      
-      
-        
-      
-  
-        <p>Flat no. 104 : Vrundavan Apartments, Near Golden Wheel Hotel , </br>Indian Oil Petrol Pump Lane, Navi Peth, Pune, Maharashtra 411030</p>
-        
-        <p>sanjanadugad@thedesignspell.com</p>
-        <p>(+91) 90750-40505</p>
-        <div class="d-flex flex-row justify-content-center">
-          <div class="col4"> <a target=_blank href="https://www.instagram.com/thedesignspell/"><img src="./photos/instagram.png" alt="Instragram icon" width="30px" height="30px"></a></div>
-          <div class="col4"><a target=_blank href="https://www.linkedin.com/in/sanjana-dugad-5330a2144/"><img style="width:30px; height: 30px; margin: 0px 30px;"  src="./photos/linkedIn.png" alt="LinkedIn icon" width="50px" height="50px"></a></div>
-          <div class="col4"><a target=_blank href="https://wa.me/message/VPMG4ROHK5IMD1"><img src="./photos/whatsapp.png" alt="Instragram icon" width="30px" height="30px"></a></div>
-        </div>
-  
-      </div>
+    <div id="contact-us" class="contact-us container mb-5"></div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="aboutUs.js"></script>
+    <script src="navbar.js"></script>
+    <script src="contactUsBanner.js"></script>
+    <script src="ReachUsForm.js"></script>
+
+
+
 
 </body>
 </html>
