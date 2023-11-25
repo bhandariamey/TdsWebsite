@@ -337,6 +337,10 @@ a {
     padding-right: 30px;
 }
 
+.checked{
+    color: orange;
+}
+
 .scroll-to-top {
     position: fixed;
     background-image: url("./photos/upArrow.png");
