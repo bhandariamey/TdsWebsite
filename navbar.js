@@ -22,7 +22,7 @@ navigation_bar.innerHTML =
    </li>
 
    <li class="nav-item">
-     <a class="nav-link" href="./aboutUs.html">About Us</a>
+     <a class="nav-link" href="./aboutUs.html">About</a>
    </li> 
    
    <li class="nav-item">
@@ -30,11 +30,11 @@ navigation_bar.innerHTML =
    </li> 
 
    <li class="nav-item">
-     <a class="nav-link" href="#">Pages</a>
+     <a class="nav-link" href="./sites.html">Sites</a>
    </li> 
 
    <li class="nav-item">
-     <a class="nav-link" href="./contact.html">Contact Us</a>
+     <a class="nav-link" href="./contact.html">Contact</a>
    </li> 
  </ul>
 

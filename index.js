@@ -28,7 +28,7 @@ const client_details = [
 
     {
         project_name : "Light House",
-        project_style: "Breezy, elegant",
+        project_style: "Breezy",
         main_image : "./photos/sites/BlueBird.jpeg",
         client_name : "Mr. Desarda",
         date : "Sept. 2023",
@@ -42,7 +42,7 @@ const client_details = [
         project_name : "Dream Room",
         project_style: "Quaint",
         main_image : "./photos/sites/DreamRoom.jpg",
-        client_name : "Mr. Ghotkar",
+        client_name : "Ms. Bhandari",
         date : "Nov. 2023",
         description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
         carousel_images:{
@@ -72,6 +72,8 @@ const client_reviews = [
         location: "Pune, IN",
         review: "Their work reflects ultimate level of sophistication & uniqueness. Sanjana made sure every requirement was understood & fulfilled."
     }
+
+    
 ]
 
 
@@ -97,7 +99,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
                     <a href="#"><h2 class="site-desc">${site.project_name}</h2></a>
                     <a href="#"><p class="site-style">${site.project_style}</p></a>
                 </div>
-                <div class="col-md-6 col-sm-12 arrow-right-div">
+                <div class="col-md-6 col-sm-12 arrow-right-div d-flex justify-content-center">
                     <a href="#"><button class="arrow-right"></button></a>
                 </div>
             </div>
@@ -114,7 +116,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         `
         <div class="row">
         <div class="col-lg-4 review-item-photo">
-          <img src=${client.image} alt="Name">
+          <img src=${client.image} alt="${client.name}">
         </div>
         <div class="col d-flex flex-column" style="justify-content: center;">
           <div class="row review-item-name">${client.name}</div>
