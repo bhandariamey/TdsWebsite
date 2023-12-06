@@ -1,8 +1,39 @@
+export { client_details };
 
 console.log("code in js")
+
+const inProgress = [
+    {
+        project_type: 'Kitchen',
+        project_name : "Adinath Society",
+        project_style: "Modern",
+        main_image : "",
+        client_name : "Mrs. Kotecha",
+        date : "InProgress",
+        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
+        carousel_images:{
+            
+        }
+    },
+
+    {
+        project_type: '4BHK',
+        project_name : "Prathamesh Ashish",
+        project_style: "Luxurious",
+        main_image : "",
+        client_name : "Mr. Bhandari",
+        date : "InProgress",
+        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
+        carousel_images:{
+            
+        }
+    },
+]
+
 const client_details = [
     {
         project_name : "Thunderstorm",
+        project_type: '4 BHK',
         project_style: "Modern",
         main_image : "./photos/sites/thunderstorm.jpg",
         client_name : "Mr. Jain",
@@ -16,6 +47,7 @@ const client_details = [
     },
     {
         project_name : "Aapla ghar",
+        project_type: '3 BHK',
         project_style: "Warm",
         main_image : "./photos/sites/aapli.jpg",
         client_name : "Mr. Sheth",
@@ -28,6 +60,7 @@ const client_details = [
 
     {
         project_name : "Light House",
+        project_type: '3 BHK',
         project_style: "Breezy",
         main_image : "./photos/sites/BlueBird.jpeg",
         client_name : "Mr. Desarda",
@@ -39,16 +72,33 @@ const client_details = [
     },
 
     {
+        project_type: '',
         project_name : "Dream Room",
         project_style: "Quaint",
         main_image : "./photos/sites/DreamRoom.jpg",
         client_name : "Ms. Bhandari",
+        date : "Nov. 2022",
+        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
+        carousel_images:{
+            
+        }
+    },
+
+    {
+        project_type: '2BHK',
+        project_name : "Mantra Monarch",
+        project_style: "Modern",
+        main_image : "",
+        client_name : "Mr. Ghotkar",
         date : "Nov. 2023",
         description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
         carousel_images:{
             
         }
-    }
+    },
+
+   
+    
 ]
 
 const client_reviews = [
@@ -79,6 +129,7 @@ const client_reviews = [
 
 document.addEventListener('DOMContentLoaded', ()=> {
 
+    
     var scroll_top = document.querySelector(".scroll-to-top");
     scroll_top.addEventListener("click",(e)=>{
         window.scrollTo({
@@ -88,7 +139,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
     })
 
     var sites_div = document.querySelector(".sites"); 
-    client_details.forEach((site) => {
+    inProgress.forEach((site) => {
         var div = document.createElement("div");
         div.setAttribute("class", "col-md-6 col-sm-12");
         div.innerHTML =

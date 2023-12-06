@@ -1,0 +1,12 @@
+.siteName{
+    font-family: "DM serif Display";
+}
+
+.project_type{
+    font-family: "Jost";
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: contain;
+}
