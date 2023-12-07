@@ -1,6 +1,12 @@
 .carousel-item img{
+    width: 100%;
+    object-fit: cover;
     border-radius: 30px;
 }
+
+.carousel-item {
+    transition: opacity 1s ease-in-out;
+  }
 
 a {
     text-decoration: none;

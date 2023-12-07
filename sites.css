@@ -1,3 +1,32 @@
+
+.navbar{
+    padding: 20px 0px
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+
+.nav-item{
+    padding: 0px 20px;
+    
+}
+
+.nav-link{
+    letter-spacing: .02em;
+    padding-top: 12px;
+    font-size: 20px;
+    font-weight: 400; 
+}
+
+.active{
+    color: #cda274 !important
+}
+
+.nav-link:hover{
+    color: #cda274
+}
+
+
 .siteName{
     font-family: "DM serif Display";
 }
@@ -6,7 +35,30 @@
     font-family: "Jost";
 }
 
+
 .carousel-item img {
     height: 500px;
     object-fit: contain;
+}
+
+.background-image{
+    position: relative;
+    background-image: url("./photos/contactUs/61a486a91df7a9868e2134f5_contactus-background.jpg") ;
+    padding-top: 350px;
+}
+.site-header{
+    position: absolute;
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    line-height: 1.6;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    width: 500px;
+    min-width: 500px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 37px 37px 0 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

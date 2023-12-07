@@ -16,10 +16,12 @@ document.addEventListener("DOMContentLoaded",()=>{
     const carouselDiv = document.getElementById("carouselForSites")
     client_details.forEach((site)=>{
         const div = document.createElement("div")
-        div.setAttribute("class","row")
+        div.setAttribute("class","row px-5")
+        div.setAttribute("style", "background-color: #f4f0ec; border-radius: 30px; margin-bottom: 10px");
+
+
         div.innerHTML = 
         `
-        <hr/>
         <div class="col-lg-5 col-sm-12">
         <div class="detailsOfSite d-flex flex-column justify-content-center" style="height:100%">
           <h2 class="siteName">${site.project_name}</h2>
@@ -29,7 +31,7 @@ document.addEventListener("DOMContentLoaded",()=>{
          
         </div>
       </div>
-      <div class="col-lg-7 col-sm-12 mb-5">
+      <div class="col-lg-7 col-sm-12 my-5">
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
             <div class="carousel-item active" data-bs-interval="3000">
@@ -44,8 +46,6 @@ document.addEventListener("DOMContentLoaded",()=>{
           </div>
         </div>
       </div>
-
-    
         `
         carouselDiv.append(div)
 
