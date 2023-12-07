@@ -45,7 +45,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     services_we_provide.forEach((item)=>{
         const inside_div = document.createElement("div")
         inside_div.setAttribute("class","service-item col-lg-4 col-md-6 col-sm-12")
-
         const inside_h2 = document.createElement("h2")
         inside_h2.setAttribute("class","service-title")
         inside_h2.innerHTML = 

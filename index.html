@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost|DM+Serif+Display">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link
+    rel="stylesheet"
+  />
 </head>
 <body>
     <nav id="navbar" class="navbar navbar-expand-lg ">
@@ -35,17 +37,17 @@
 
     <div class="service-section">
       <div class=" service-row row d-flex">
-        <div class=" service-item col-lg-4 col-md-6 col-sm-12">
+        <div class=" service-item col-md-4 col-sm-12">
             <h2 class="service-title">Interior Design</h2>
             <p class="service-content">An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical.</p>
         </div>
-        <div class="service-item col-lg-4 col-md-6 col-sm-12">
+        <div class="service-item col-md-4 col-sm-12">
             <h2 class="service-title">Furniture</h2>
             <p class="service-content">Upgrading spaces through selection of meticulous furniture, marrying form and function to create captivating
               and comformtable environments.
             </p>
         </div>
-        <div class=" service-item col-lg-4 col-md-6 col-sm-12">
+        <div class=" service-item col-md-4 col-sm-12">
             <h2 class="service-title">Make Overs</h2>
             <p class="service-content">Breathe a new life into spaces via thoughtful renovations, revitalizing and modernising 
               your surrounding.
@@ -82,35 +84,46 @@
       </div>
     </div>
 
-    <div class="review-section container">
+    <div class="review-section mx-3">
       <h2 class="review-header"> People Say The Nicest Things</h2>
-      <div class="row" id="review-header-main-child">
-
-
-        
+      <div class="row mx-3" id="review-header-main-child">
       </div>
     </div>
 
     <div class="recent-projects container">
-      <h1 class="recent-project-header">On Going Projects</h1>
-      <p class="recent-project-quote">Equipped with tools to infuse a personal touch into every step of your journey, </br>and a
+      <p class="recent-project-header">Certain projects we've undertaken!</p>
+      <!-- <p class="recent-project-quote">Equipped with tools to infuse a personal touch into every step of your journey, </br>and a
         dedicated support team eager to assist, initiating your journey with us has never been easy.
-      </p>
+      </p> -->
 
-        <div class="row sites">
-          
-        </div>
+      <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8 border rounded my-5">
+        <div id="carouselExampleInterval" class="carousel slide m-5" data-bs-ride="carousel">
+          <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                  <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1380&t=st=1701879334~exp=1701879934~hmac=64fcdbe14df03ffb135dbf2b9faf4fadd73992c4c8c95f8138fe593b74836076" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="https://img.freepik.com/premium-photo/panorama-forest-dusk-stone-road-3d-illustration_710973-5180.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="https://img.freepik.com/premium-photo/beautiful-view-chongqing-city-skyline_1112-3357.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+            </div>
+      </div>
+      <div class="col-lg-2"></div>
+      </div>
+
     </div>
 
     <div id="contact-us" class="contact-us container mb-5"></div>
-
-
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
       <script type="module" src="index.js"></script>
       <script src="navbar.js"></script>
       <script src="contactUsBanner.js"></script>
-
 
 </body>
 </html>

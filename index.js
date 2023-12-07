@@ -129,7 +129,6 @@ const client_reviews = [
 
 document.addEventListener('DOMContentLoaded', ()=> {
 
-    
     var scroll_top = document.querySelector(".scroll-to-top");
     scroll_top.addEventListener("click",(e)=>{
         window.scrollTo({
@@ -138,25 +137,25 @@ document.addEventListener('DOMContentLoaded', ()=> {
         })
     })
 
-    var sites_div = document.querySelector(".sites"); 
-    inProgress.forEach((site) => {
-        var div = document.createElement("div");
-        div.setAttribute("class", "col-md-6 col-sm-12");
-        div.innerHTML =
-         `
-            <a href="#"><img src="${site.main_image}" width="100%" height="80%" alt="${site.project_name}"></a>
-            <div class="row" style="margin-top: 20px;">
-                <div class="col">
-                    <a href="#"><h2 class="site-desc">${site.project_name}</h2></a>
-                    <a href="#"><p class="site-style">${site.project_style}</p></a>
-                </div>
-                <div class="col-md-6 col-sm-12 arrow-right-div d-flex justify-content-center">
-                    <a href="#"><button class="arrow-right"></button></a>
-                </div>
-            </div>
-        `
-        sites_div.appendChild(div);
-    });
+    // var sites_div = document.querySelector(".sites"); 
+    // inProgress.forEach((site) => {
+    //     var div = document.createElement("div");
+    //     div.setAttribute("class", "col-md-6 col-sm-12");
+    //     div.innerHTML =
+    //      `
+    //         <a href="#"><img src="${site.main_image}" width="100%" height="80%" alt="${site.project_name}"></a>
+    //         <div class="row" style="margin-top: 20px;">
+    //             <div class="col">
+    //                 <a href="#"><h2 class="site-desc">${site.project_name}</h2></a>
+    //                 <a href="#"><p class="site-style">${site.project_style}</p></a>
+    //             </div>
+    //             <div class="col-md-6 col-sm-12 arrow-right-div d-flex justify-content-center">
+    //                 <a href="#"><button class="arrow-right"></button></a>
+    //             </div>
+    //         </div>
+    //     `
+    //     sites_div.appendChild(div);
+    // });
 
     const reviews = document.getElementById("review-header-main-child")
 

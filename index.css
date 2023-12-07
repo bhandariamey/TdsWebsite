@@ -1,3 +1,6 @@
+.carousel-item img{
+    border-radius: 30px;
+}
 
 a {
     text-decoration: none;
@@ -78,6 +81,7 @@ a {
     background-color: #BAB7B2;
     border: none;
     box-shadow: 2px 2px 3px black;
+    color: black;
 }
 
 .service-row :hover{
@@ -90,14 +94,13 @@ a {
 .service-row{
     margin: 80px 30px;
     background-color: #f4f0ec;
-    padding: 20px 100px 20px 100px;
+    padding: 20px 50px;
     border-radius: 50px;
 }
 
 .service-item{
     border-radius: 25px;
-    padding: 80px 30px;
-    
+    padding: 80px 0px;
 }
 
 .service-title{
@@ -260,9 +263,8 @@ a {
 .recent-project-header{
     margin-top: 100px;
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
     font-family: "DM Serif Display";
-    font-weight: 100;
 }
 
 .recent-project-quote{
@@ -273,41 +275,6 @@ a {
     line-height: 1.5;
     text-align: center;
     margin-top: 20px;
-}
-
-.sites{
-    margin-top: 50px
-}
-
-.sites img{
-    border-radius: 80px;
-}
-
-.sites img:hover{
-    filter: brightness(60%);
-    
-}
-
-.site-desc{
-    color: #292f36;
-    letter-spacing: .01em;
-    font-family: "DM Serif Display";
-    font-size: 26px;
-    line-height: 1.5;
-    font-weight: 300;
-    transition: color .2s;
-    text-align: center;
-}
-
-.site-style{
-    color: #4d5053;
-    letter-spacing: .01em;
-    font-family: "jost";
-    font-size: 22px;
-    line-height: 1.5;
-    transition: color .2s;
-    text-align: center;
-
 }
 
 .arrow-right{
@@ -338,11 +305,17 @@ a {
 }
 
 .contact-us{
-    width: 60%;
+    width: 70%;
     background-color: #f4f0ec;
     border-radius: 25px;
     padding: 30px 0px;
     margin-top: 30px;
+}
+
+@media(max-width: 900px){
+    .contact-us{
+        width: 100%;
+    }
 }
 
 .justify-content-evenly{
@@ -372,7 +345,7 @@ a {
 
 @media(max-width: 992px){
     #hero-section img{
-        border-radius:  0 0 0 0;
+        border-radius:  0 0 0 150px;
     }
     .hero-area{
         width: 100%;
@@ -404,7 +377,6 @@ a {
     
 
     .hero-button{
-        position: absolute;
         border-radius: 15px;
         padding: 7px 30px 7px 10px;
         background-image: url("./photos/heroButtonWand.svg");
