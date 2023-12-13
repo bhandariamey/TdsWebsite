@@ -6,9 +6,9 @@ contactUSBanner.innerHTML =
 <p>sanjana@thedesignspell.com</p>
 <p>(+91) 90750-40505</p>
 <div class="d-flex flex-row justify-content-center">
-  <div class="col4"> <a target=_blank href="https://www.instagram.com/thedesignspell/"><img src="./photos/instagram.png" alt="Instragram icon" width="30px" height="30px"></a></div>
-  <div class="col4"><a target=_blank href="https://www.linkedin.com/in/sanjana-dugad-5330a2144/"><img src="./photos/linkedin.png"; style="width:30px; height: 30px; margin: 0px 30px;" alt="LinkedIn icon" width="50px" height="50px"></a></div>
-  <div class="col4"><a target=_blank href="https://wa.me/message/VPMG4ROHK5IMD1"><img src="./photos/whatsapp.png" alt="Instragram icon" width="30px" height="30px"></a></div>
+  <div class="col4"> <a target='_blank' href="https://www.instagram.com/thedesignspell/"><img src="./photos/instagram.png" alt="Instragram icon" width="30px" height="30px"></a></div>
+  <div class="col4"><a target='_blank' href="https://www.linkedin.com/in/sanjana-dugad-5330a2144/"><img src="./photos/linkedin.png"; style="width:30px; height: 30px; margin: 0px 30px" alt="LinkedIn icon" width="50px" height="50px"></a></div>
+  <div class="col4"><a target='_blank' href="https://wa.me/message/VPMG4ROHK5IMD1"><img src="./photos/whatsapp.png" alt="Instragram icon" width="30px" height="30px"></a></div>
 </div>
 </div>
 `
