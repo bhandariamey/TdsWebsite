@@ -43,7 +43,7 @@
 
 .background-image{
     background-size: 100%;
-    background-image: url("/photos/sites/Lighthouse/sitesTop.jpg") ;
+    background-image: url("./photos/sites/Lighthouse/sitesTop.jpg") ;
     padding-top: 350px;
 }
 .site-header{
