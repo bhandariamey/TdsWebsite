@@ -9,27 +9,47 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     const services_we_provide = [
         {
-            name: "Interior Design",
+            name: "Consultancy",
+            desc: "Enhancing the interior to achieve a healthier environment for the people using right space."
+        },
+        {
+            name: "Turnkey",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
         {
-            name: "Interior Design",
+            name: "Renovation",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
         {
-            name: "Interior Design",
+            name: "Furniture",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
         {
-            name: "Interior Design",
+            name: "Space planning",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
         {
-            name: "Interior Design",
+            name: "Lighting",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
         {
-            name: "Interior Design",
+            name: "Flooring",
+            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+        },
+        {
+            name: "Furnishing",
+            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+        },
+        {
+            name: "Plumbing",
+            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+        },
+        {
+            name: "Painting",
+            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+        },
+        {
+            name: "Landscape",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
     ]

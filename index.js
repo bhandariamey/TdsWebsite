@@ -1,5 +1,6 @@
 export { client_details };
 
+
 console.log("code in js")
 
 const inProgress = [
@@ -32,6 +33,27 @@ const inProgress = [
 
 const client_details = [
     {
+        project_type: '2BHK | 790 sqft',
+        project_name : "Mantra Monarch",
+        project_style: "Modern",
+        client_name : "Mr. Ghotkar",
+        date : "Nov. 2023",
+        description: "Step into the epitome of warmth and luxury in our recently completed project situated in Parvati, Pune. Emanating welcoming charm, the space is a symphony of comfort and sophistication. Each room boasts a cozy ambiance, inviting residents and guests alike to experience a luxurious haven. Meticulously curated elements contribute to a cohesive and opulent look throughout. From sumptuous furnishings to thoughtfully placed accents, every detail exudes a sense of refined living. Our design transcends traditional boundaries, creating a home that not only meets but exceeds expectations, redefining the essence of modern elegance and comfort.        ",
+        carousel_images:[
+           " ./photos/sites/Mantra/1.jpg", 
+            './photos/sites/Mantra/2.jpg',
+            './photos/sites/Mantra/3.jpg', 
+            './photos/sites/Mantra/4.jpg',
+            './photos/sites/Mantra/5.jpg',
+            './photos/sites/Mantra/6.jpg',
+            './photos/sites/Mantra/7.jpg',
+            './photos/sites/Mantra/8.jpg',
+            './photos/sites/Mantra/9.jpg',
+            './photos/sites/Mantra/10.jpg',
+            './photos/sites/Mantra/11.jpg',
+        ]
+    },
+    {
         project_name : "Thunderstorm",
         project_type: '4 BHK',
         project_style: "Modern",
@@ -39,63 +61,79 @@ const client_details = [
         client_name : "Mr. Jain",
         date : 2020,
         description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
-        carousel_images:{
-
-        }
+        carousel_images:[
+            './photos/sites/Thunderstorm/2.JPG',
+            './photos/sites/Thunderstorm/3.JPG',
+            './photos/sites/Thunderstorm/4.JPG',
+            './photos/sites/Thunderstorm/5.JPG',
+            './photos/sites/Thunderstorm/6.JPG'
+           ]
 
 
     },
     {
         project_name : "Aapla ghar",
-        project_type: '3 BHK',
+        project_type: '3 BHK | 1170 sqft',
         project_style: "Warm",
         main_image : "./photos/sites/aapli.jpg",
         client_name : "Mr. Sheth",
         date : "Sept. 2023",
-        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
-        carousel_images:{
-            
-        }
+        description: "Step into the epitome of warmth and luxury in our recently completed project situated in Parvati, Pune. Emanating welcoming charm, the space is a symphony of comfort and sophistication. Each room boasts a cozy ambiance, inviting residents and guests alike to experience a luxurious haven. Meticulously curated elements contribute to a cohesive and opulent look throughout. From sumptuous furnishings to thoughtfully placed accents, every detail exudes a sense of refined living. Our design transcends traditional boundaries, creating a home that not only meets but exceeds expectations, redefining the essence of modern elegance and comfort.",
+        carousel_images:[
+            './photos/sites/Aaplaghar/11.jpg',
+            './photos/sites/Aaplaghar/2.jpg',
+             './photos/sites/Aaplaghar/3.jpg', 
+             './photos/sites/Aaplaghar/4.jpg',
+             './photos/sites/Aaplaghar/5.jpg',
+             './photos/sites/Aaplaghar/6.jpg',
+             './photos/sites/Aaplaghar/7.jpg',
+             './photos/sites/Aaplaghar/8.jpg',
+             './photos/sites/Aaplaghar/9.png',
+             './photos/sites/Aaplaghar/10.png',
+             './photos/sites/Aaplaghar/12.jpg',
+             './photos/sites/Aaplaghar/13.jpg',
+         ]
     },
 
     {
         project_name : "Light House",
-        project_type: '3 BHK',
+        project_type: '3 BHK | 1330 sqft',
         project_style: "Breezy",
         main_image : "./photos/sites/BlueBird.jpeg",
         client_name : "Mr. Desarda",
         date : "Sept. 2023",
-        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
-        carousel_images:{
-            
-        }
+        description: "Step into the epitome of warmth and luxury in our recently completed project situated in Parvati, Pune. Emanating welcoming charm, the space is a symphony of comfort and sophistication. Each room boasts a cozy ambiance, inviting residents and guests alike to experience a luxurious haven. Meticulously curated elements contribute to a cohesive and opulent look throughout. From sumptuous furnishings to thoughtfully placed accents, every detail exudes a sense of refined living. Our design transcends traditional boundaries, creating a home that not only meets but exceeds expectations, redefining the essence of modern elegance and comfort.",
+        carousel_images:[
+            " ./photos/sites/Lighthouse/2.jpg", 
+             './photos/sites/Lighthouse/1.jpg',
+             './photos/sites/Lighthouse/3.jpg', 
+             './photos/sites/Lighthouse/5.jpg',
+             './photos/sites/Lighthouse/7.jpg',
+             './photos/sites/Lighthouse/9.jpg',
+             './photos/sites/Lighthouse/10.png',
+             './photos/sites/Lighthouse/11.jpg',
+             './photos/sites/Lighthouse/12.jpg',
+             './photos/sites/Lighthouse/13.jpg',
+
+         ]
     },
 
     {
-        project_type: '',
+        project_type: 'Bedroom | 150 sqft',
         project_name : "Dream Room",
         project_style: "Quaint",
         main_image : "./photos/sites/DreamRoom.jpg",
         client_name : "Ms. Bhandari",
         date : "Nov. 2022",
-        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
-        carousel_images:{
-            
-        }
+        description: "Behold the enchanting metamorphosis of a 10-year-old girl's bedroom – a magical journey brought to life. We've woven dreams into reality, infusing the space with a palette of soft peach and gentle grey, embracing the whimsical allure of terrazzo materials. Transforming simplicity into an invigorating experience, our recent project seamlessly blends a pure and fresh design strategy. A Vaastu Shastra-compliant study area, complete with an extendable table and rattan shutters, harnesses natural light and fosters an energy-efficient, distraction-free environment. Delicate touches like cloud-shaped accessories and pastel linens adorn the transformed space, turning it into a sanctuary that mirrors the innocence and charm of childhood.",
+        carousel_images:[
+            " ./photos/sites/Dreamroom/1.jpg", 
+            " ./photos/sites/Dreamroom/2.jpg", 
+            " ./photos/sites/Dreamroom/3.jpg", 
+         ]
     },
 
-    {
-        project_type: '2BHK',
-        project_name : "Mantra Monarch",
-        project_style: "Modern",
-        main_image : "",
-        client_name : "Mr. Ghotkar",
-        date : "Nov. 2023",
-        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
-        carousel_images:{
-            
-        }
-    },
+   
 
    
     

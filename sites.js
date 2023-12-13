@@ -34,16 +34,12 @@ document.addEventListener("DOMContentLoaded",()=>{
       <div class="col-lg-7 col-sm-12 my-5">
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="3000">
-              <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?w=1380&t=st=1701879334~exp=1701879934~hmac=64fcdbe14df03ffb135dbf2b9faf4fadd73992c4c8c95f8138fe593b74836076" class="d-block w-100" alt="...">
+              ${site.carousel_images.map((carouselImage, index) => `
+                <div key=${index} class="carousel-item ${index === 0 ? 'active' : ''}" data-bs-interval="3000">
+                  <img src=${carouselImage} class="d-block w-100" alt="...">
+                </div>
+              `).join('')}
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img src="https://img.freepik.com/premium-photo/panorama-forest-dusk-stone-road-3d-illustration_710973-5180.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-              <img src="https://img.freepik.com/premium-photo/beautiful-view-chongqing-city-skyline_1112-3357.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
         </div>
       </div>
         `

@@ -2,6 +2,7 @@
     position: relative;
     background-image: url("https://assets-global.website-files.com/6194e0af852e05a5be106504/61a483cb41077d907a98f096_service-background.jpg") !important ;
     padding-top: 350px;
+    
 }
 
 .how-we-work{
@@ -42,6 +43,7 @@
     font-weight: 400;
     display: flex;
     justify-content: center;
+    height: 80%;
 }
 
 .step_name{
@@ -61,13 +63,15 @@
 
 .step_image img{
     border-radius:  0 123px 0 123px;
-    object-fit: contain;
+    width: 100%;
+    object-fit: cover;
 }
 
 .step_image{
     display: flex;
     justify-content: center;
 }
+
 
 .step_desc{
     color: #292f36;
@@ -78,16 +82,38 @@
     margin-top: 30px;
 }
 
-@media(max-width: 900px){
+.step_list_item{
+    font-family: "Jost";
+    font-size: 19px;
+    line-height: 1.5;
+
+}
+
+
+@media(max-width: 991px){
     .description{
         margin: 30px 20px;
         padding: 20px 10px; 
     }
 
-    .step_image img{
-        width: 100%;
-        object-fit: contain;
-        border-radius:  0px;
-
+    .step-image{
+        display: none;
+       /* margin-bottom: 40px;
+       padding : 5% */
     }
+
+    .step_name{
+        display: flex;
+        justify-content: center;
+    }
+
+    .step_list_item{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        padding: 0px 30px;
+    }
+
+
+
 }
