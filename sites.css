@@ -26,6 +26,40 @@
     color: #cda274
 }
 
+.contact-us p{
+    color: #4d5053; 
+    letter-spacing: .01em; 
+    font-size: 22px;
+    font-family: "jost";
+    line-height: 1.5;
+    text-align: center; 
+    margin-top: 30px;
+}
+
+.contact-us{
+    width: 70%;
+    background-color: #f4f0ec;
+    border-radius: 25px;
+    padding: 30px 0px;
+    margin-top: 30px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    background-image: url("./photos/upArrow.png");
+    background-repeat: no-repeat;
+    bottom: 10px;
+    right: 10px;
+    background-position: 50%;
+    background-color: #f4f0ec;;
+    padding: 30px;
+    border-radius: 50% 0 0 0;
+    background-size: 40%;
+    box-shadow: 2px 2px 2px 3px #999;
+    z-index: 1;
+    border: none;
+}
+
 
 .siteName{
     font-family: "DM serif Display";
