@@ -61,16 +61,13 @@
     height:120px;
 }
 
-.step_image img{
-    border-radius:  0 123px 0 123px;
-    width: 100%;
-    object-fit: cover;
-}
 
 .step_image{
     display: flex;
     justify-content: center;
 }
+
+
 
 
 .step_desc{
