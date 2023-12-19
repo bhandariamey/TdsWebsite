@@ -6,7 +6,7 @@ const navigation_bar = document.getElementById("navbar");
 navigation_bar.innerHTML = 
 `
 <div class="container">
-<div>
+<div class="brand">
  <img width=15% src="https://static.thenounproject.com/png/1919504-200.png" alt="TDS Logo">
  <a class="navbar-brand" href="./index.html">The Design Spell</a>
 </div>

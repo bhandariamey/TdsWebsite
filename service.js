@@ -9,13 +9,14 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     const services_we_provide = [
         {
-            name: "Consultancy",
-            desc: "Enhancing the interior to achieve a healthier environment for the people using right space."
-        },
-        {
             name: "Turnkey",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
+        {
+            name: "Consultancy",
+            desc: "Enhancing the interior to achieve a healthier environment for the people using right space."
+        },
+       
         {
             name: "Renovation",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
@@ -54,8 +55,6 @@ document.addEventListener("DOMContentLoaded",()=>{
         },
     ]
 
-    // services_div > div > inside_div 
-
     const services_div = document.getElementById("services")
 
     const div = document.createElement("div")
@@ -64,7 +63,7 @@ document.addEventListener("DOMContentLoaded",()=>{
 
     services_we_provide.forEach((item)=>{
         const inside_div = document.createElement("div")
-        inside_div.setAttribute("class","service-item col-lg-4 col-md-6 col-sm-12")
+        inside_div.setAttribute("class","service-item col-lg-4 col-md-6 col-sm-12 px-2")
         const inside_h2 = document.createElement("h2")
         inside_h2.setAttribute("class","service-title")
         inside_h2.innerHTML = 
