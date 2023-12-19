@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
     //     const result = await getAPIResponse();
     //     console.log("Printing response", result);
     // });
+
+    
 });
 
 // async function getAPIResponse() {

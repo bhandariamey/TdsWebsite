@@ -21,10 +21,7 @@ document.addEventListener("DOMContentLoaded",()=>{
             name: "Renovation",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
-        {
-            name: "Furniture",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
-        },
+  
         {
             name: "Space planning",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
@@ -33,24 +30,9 @@ document.addEventListener("DOMContentLoaded",()=>{
             name: "Lighting",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
-        {
-            name: "Flooring",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
-        },
+
         {
             name: "Furnishing",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
-        },
-        {
-            name: "Plumbing",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
-        },
-        {
-            name: "Painting",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
-        },
-        {
-            name: "Landscape",
             desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
         },
     ]

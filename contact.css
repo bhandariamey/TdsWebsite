@@ -1,14 +1,40 @@
-.background-image{
-    position: relative;
-    background-image: url("./photos/contactUs/61a486a91df7a9868e2134f5_contactus-background.jpg") ;
-    padding-top: 350px;
+body{
+  overflow-x: hidden;
+}
+
+
+.slidingEffect {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 100%;
+  font-size: 80px;
+  font-family: "Bebas Neue";
+  top: 30%;
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+}
+
+.slidingEffect span {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .contact-us-header{
     position: absolute;
     color: #292f36;
     font-family: "DM Serif Display";
-    font-size: 50px;
+    font-size: 70px;
     line-height: 1.6;
     left: 50%;
     transform: translateX(-50%) translateY(-100%);
@@ -67,7 +93,7 @@
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 991px){
     .contact-us-header{
         font-size: 30px;
         width: 400px;
@@ -81,4 +107,7 @@
         width: 300px;
         min-width: 300px;
     }
+
+   
 }
+

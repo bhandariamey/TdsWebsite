@@ -69,7 +69,6 @@ const client_details = [
             './photos/sites/Thunderstorm/6.JPG'
            ]
 
-
     },
     {
         project_name : "Aapla ghar",

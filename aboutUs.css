@@ -1,13 +1,20 @@
-.background-image{
-    background-image: url("https://uploads-ssl.webflow.com/6194e0af852e05a5be106504/619781bbd2e01fac5dca841b_title-area-background.jpg")
-}
 
-/* .vertical{
-    height : 200vh;
-    left : 60px;
+.about-us-header{
     position: absolute;
-    border-left: 2px solid #E8E8E8;
-} */
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    line-height: 1.6;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    width: 500px;
+    min-width: 500px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 37px 37px 0 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
 blockquote{
     width: 100%;

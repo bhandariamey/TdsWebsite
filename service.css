@@ -1,8 +1,27 @@
-.background-image{
-    position: relative;
-    background-image: url("https://assets-global.website-files.com/6194e0af852e05a5be106504/61a483cb41077d907a98f096_service-background.jpg") !important ;
-    padding-top: 350px;
-    
+.step-image{
+    border-radius: 0px 20%;
+    width: 80%; 
+    height: 70%;
+    object-fit: cover;
+    margin: auto;
+}
+
+.service-header{
+    position: absolute;
+    color: #292f36;
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    line-height: 1.6;
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+    width: 500px;
+    min-width: 500px;
+    background-color: #fff;
+    border-radius: 37px 37px 0 0;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .how-we-work{
@@ -30,10 +49,9 @@
     font-family: "Jost";
     font-size: 22px;
     line-height: 1.5;
-    margin: 30px 100px;
-    padding: 20px 0px;
+    margin: 20px 100px;
     border-radius: 25px;
-    background-color: #fff;
+    padding-top: 30px;
 }
 
 .step_number{
@@ -62,13 +80,6 @@
 }
 
 
-.step_image{
-    display: flex;
-    justify-content: center;
-}
-
-
-
 
 .step_desc{
     color: #292f36;
@@ -94,8 +105,7 @@
 
     .step-image{
         display: none;
-       /* margin-bottom: 40px;
-       padding : 5% */
+       
     }
 
     .step_name{
@@ -110,4 +120,20 @@
         padding: 0px 30px;
     }
 
+}
+
+@media(max-width: 768px){
+    .service-header{
+        font-size: 30px;
+        width: 400px;
+        min-width: 400px;
+    }
+}
+
+@media(max-width: 500px){
+    .service-header{
+        font-size: 30px;
+        width: 300px;
+        min-width: 300px;
+    }
 }
