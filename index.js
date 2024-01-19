@@ -57,16 +57,16 @@ const client_details = [
         project_name : "Thunderstorm",
         project_type: '4 BHK',
         project_style: "Modern",
-        main_image : "./photos/sites/thunderstorm.jpg",
+        main_image : "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm.jpg",
         client_name : "Mr. Jain",
         date : 2020,
         description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
         carousel_images:[
-            './photos/sites/Thunderstorm/2.JPG',
-            './photos/sites/Thunderstorm/3.JPG',
-            './photos/sites/Thunderstorm/4.JPG',
-            './photos/sites/Thunderstorm/5.JPG',
-            './photos/sites/Thunderstorm/6.JPG'
+            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/2.JPG',
+            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/3.JPG',
+            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/4.JPG',
+            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/5.JPG',
+            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/6.JPG'
            ]
 
     },
