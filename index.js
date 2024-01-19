@@ -126,9 +126,9 @@ const client_details = [
         date : "Nov. 2022",
         description: "Behold the enchanting metamorphosis of a 10-year-old girl's bedroom – a magical journey brought to life. We've woven dreams into reality, infusing the space with a palette of soft peach and gentle grey, embracing the whimsical allure of terrazzo materials. Transforming simplicity into an invigorating experience, our recent project seamlessly blends a pure and fresh design strategy. A Vaastu Shastra-compliant study area, complete with an extendable table and rattan shutters, harnesses natural light and fosters an energy-efficient, distraction-free environment. Delicate touches like cloud-shaped accessories and pastel linens adorn the transformed space, turning it into a sanctuary that mirrors the innocence and charm of childhood.",
         carousel_images:[
-            " ./photos/sites/Dreamroom/1.jpg", 
-            " ./photos/sites/Dreamroom/2.jpg", 
-            " ./photos/sites/Dreamroom/3.jpg", 
+            "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Dreamroom/1.JPG", 
+            "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Dreamroom/2.JPG", 
+            "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Dreamroom/3.JPG", 
          ]
     },
 
