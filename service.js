@@ -10,30 +10,31 @@ document.addEventListener("DOMContentLoaded",()=>{
     const services_we_provide = [
         {
             name: "Turnkey",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+            desc: "Complete solutions from concept to execution, ensuring a seamless, hassle-free experience for a beautifully curated environment."
         },
         {
             name: "Consultancy",
-            desc: "Enhancing the interior to achieve a healthier environment for the people using right space."
+            desc: "Expert advice, tailored resolutions, and creative insights to achieve a cohesive and personalized environment that exceeds your design aspirations."
         },
        
         {
             name: "Renovation",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+            desc: "Meticulous upgrades, modernization, and personalized touches for a refreshed and harmonious ambiance, crafted to your unique style and preferences."
         },
   
         {
-            name: "Space planning",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+            name: "Lighting",
+            desc: "From ambient to accent, our expert interior designers strategically illuminate your environment, ensuring a perfect balance of form and function."
         },
         {
-            name: "Lighting",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+            name: "Space planning",
+            desc: "Optimizing functionality and flow, we meticulously arrange layouts, ensuring efficient and concordant use of space to meet your stylistic desires and essential necessities."
         },
+      
 
         {
             name: "Furnishing",
-            desc: "An interior designer transforms spaces by harmonizing aesthetics and functionality, making your domain both beautiful and practical."
+            desc: "Thoughtfully curated pieces that blend practicality, flair, and comfort, enhancing the overall design aesthetics of your interior."
         },
     ]
 

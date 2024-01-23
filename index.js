@@ -38,7 +38,7 @@ const client_details = [
         project_style: "Modern",
         client_name : "Mr. Ghotkar",
         date : "Nov. 2023",
-        description: "Step into the epitome of warmth and luxury in our recently completed project situated in Parvati, Pune. Emanating welcoming charm, the space is a symphony of comfort and sophistication. Each room boasts a cozy ambiance, inviting residents and guests alike to experience a luxurious haven. Meticulously curated elements contribute to a cohesive and opulent look throughout. From sumptuous furnishings to thoughtfully placed accents, every detail exudes a sense of refined living. Our design transcends traditional boundaries, creating a home that not only meets but exceeds expectations, redefining the essence of modern elegance and comfort.        ",
+        description: "This 2BHK is an embodiment of our commitment to elegance and innovation. This bespoke creation, a testament to our prowess, seamlessly merges aesthetics and functionality. From the moment you step in, you're enveloped in a world meticulously crafted to evoke emotions and inspire awe. Every element, from the carefully chosen color palette to the thoughtful placement of furniture, narrates a story of sophistication. We celebrate this space where luxury meets ingenuity—a testament to our unwavering dedication to creating environments that transcend the ordinary.",
         carousel_images:[
            " https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/1.jpg", 
             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/2.jpg',
@@ -55,12 +55,12 @@ const client_details = [
     },
     {
         project_name : "Thunderstorm",
-        project_type: '4 BHK',
+        project_type: '4.5 BHK | 2400 sqft',
         project_style: "Modern",
         main_image : "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm.jpg",
         client_name : "Mr. Jain",
         date : 2020,
-        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
+        description: "Our discerning use of a neutral palette creates a canvas for elegant expression, accentuated by smart fittings and a deliberate absence of traditional wooden textures. Exquisite materials weave a story of opulence in every corner, while the modern mandir and creatively designed bathrooms showcase a fusion of functionality and artistry. Behold an enchanting dining, a symphony of luxury and creativity sourced from the lap of nature and finished by the hands of excellent craftsman. The pièce de résistance—a luxurious powder bathroom that captivates with enchanting allure. Elevate your lifestyle with a dwelling where every detail whispers opulence and innovation",
         carousel_images:[
             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/2.JPG',
             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/3.JPG',
@@ -101,7 +101,7 @@ const client_details = [
         main_image : "./photos/sites/BlueBird.jpeg",
         client_name : "Mr. Desarda",
         date : "Sept. 2023",
-        description: "Step into the epitome of warmth and luxury in our recently completed project situated in Parvati, Pune. Emanating welcoming charm, the space is a symphony of comfort and sophistication. Each room boasts a cozy ambiance, inviting residents and guests alike to experience a luxurious haven. Meticulously curated elements contribute to a cohesive and opulent look throughout. From sumptuous furnishings to thoughtfully placed accents, every detail exudes a sense of refined living. Our design transcends traditional boundaries, creating a home that not only meets but exceeds expectations, redefining the essence of modern elegance and comfort.",
+        description: "Bathed in natural light, each room is a canvas of vibrant hues—teal, brick red, pastel pink, and royal blue—creating an atmosphere that's both lively and sophisticated. The clever integration of hidden storage ensures a clutter-free oasis, preserving the seamless aesthetic. Welcome to the epitome of modern living, where every detail reflects elegance and innovation. One of the unique features is the versatile entertainment area that seamlessly transforms into a welcoming guest room. Not just as an entertainment hub but also as a storage powerhouse, maximizing utility without compromising style.",
         carousel_images:[
             
              'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/1-min.jpg',
@@ -174,25 +174,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
         })
     })
 
-    // var sites_div = document.querySelector(".sites"); 
-    // inProgress.forEach((site) => {
-    //     var div = document.createElement("div");
-    //     div.setAttribute("class", "col-md-6 col-sm-12");
-    //     div.innerHTML =
-    //      `
-    //         <a href="#"><img src="${site.main_image}" width="100%" height="80%" alt="${site.project_name}"></a>
-    //         <div class="row" style="margin-top: 20px;">
-    //             <div class="col">
-    //                 <a href="#"><h2 class="site-desc">${site.project_name}</h2></a>
-    //                 <a href="#"><p class="site-style">${site.project_style}</p></a>
-    //             </div>
-    //             <div class="col-md-6 col-sm-12 arrow-right-div d-flex justify-content-center">
-    //                 <a href="#"><button class="arrow-right"></button></a>
-    //             </div>
-    //         </div>
-    //     `
-    //     sites_div.appendChild(div);
-    // });
+   
 
     const reviews = document.getElementById("review-header-main-child")
 
