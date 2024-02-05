@@ -74,7 +74,7 @@ a{
 .hero-description{
     position: absolute;
     left: 13%;
-    top: 35%;
+    top: 30%;
     font-size: 1.6vw;
     font-family:"jost";
     color: #292f36;
@@ -86,7 +86,7 @@ a{
 .hero-button{
     position: absolute;
     left: 13%;
-    top: 47%;
+    top: 42%;
     border-radius: 20px;
     padding: 10px 40px 10px 20px;
     background-image: url("./photos/heroButtonWand.svg");
