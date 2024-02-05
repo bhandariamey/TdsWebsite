@@ -40,17 +40,17 @@ const client_details = [
         date : "Nov. 2023",
         description: "This 2BHK is an embodiment of our commitment to elegance and innovation. This bespoke creation, a testament to our prowess, seamlessly merges aesthetics and functionality. From the moment you step in, you're enveloped in a world meticulously crafted to evoke emotions and inspire awe. Every element, from the carefully chosen color palette to the thoughtful placement of furniture, narrates a story of sophistication. We celebrate this space where luxury meets ingenuity—a testament to our unwavering dedication to creating environments that transcend the ordinary.",
         carousel_images:[
-           " https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/1.jpg", 
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/2.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/3.jpg', 
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/4.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/5.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/6.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/7.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/8.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/9.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/10.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Mantra/11.jpg',
+            '../photos/sites/Mantra/1.jpg',
+            '../photos/sites/Mantra/2.jpg',
+            '../photos/sites/Mantra/3.jpg',
+            '../photos/sites/Mantra/4.jpg',
+            '../photos/sites/Mantra/5.jpg',
+            '../photos/sites/Mantra/6.jpg',
+            '../photos/sites/Mantra/7.jpg',
+            '../photos/sites/Mantra/8.jpg',
+            '../photos/sites/Mantra/9.jpg',
+            '../photos/sites/Mantra/10.jpg',
+            '../photos/sites/Mantra/11.jpg',
         ]
     },
     {
@@ -62,11 +62,17 @@ const client_details = [
         date : 2020,
         description: "Our discerning use of a neutral palette creates a canvas for elegant expression, accentuated by smart fittings and a deliberate absence of traditional wooden textures. Exquisite materials weave a story of opulence in every corner, while the modern mandir and creatively designed bathrooms showcase a fusion of functionality and artistry. Behold an enchanting dining, a symphony of luxury and creativity sourced from the lap of nature and finished by the hands of excellent craftsman. The pièce de résistance—a luxurious powder bathroom that captivates with enchanting allure. Elevate your lifestyle with a dwelling where every detail whispers opulence and innovation",
         carousel_images:[
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/2.JPG',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/3.JPG',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/4.JPG',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/5.JPG',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm/6.JPG'
+            '../photos/sites/Thunderstorm/1.png',
+            '../photos/sites/Thunderstorm/2.jpg',
+            '../photos/sites/Thunderstorm/3.jpg',
+            '../photos/sites/Thunderstorm/4.jpg',
+            '../photos/sites/Thunderstorm/5.jpg',
+            '../photos/sites/Thunderstorm/6.jpg',
+            '../photos/sites/Thunderstorm/7.jpg',
+            '../photos/sites/Thunderstorm/8.jpg',
+            '../photos/sites/Thunderstorm/9.jpg',
+            '../photos/sites/Thunderstorm/10.png',
+            
            ]
 
     },
@@ -79,18 +85,20 @@ const client_details = [
         date : "Sept. 2023",
         description: "Step into the epitome of warmth and luxury in our recently completed project situated in Parvati, Pune. Emanating welcoming charm, the space is a symphony of comfort and sophistication. Each room boasts a cozy ambiance, inviting residents and guests alike to experience a luxurious haven. Meticulously curated elements contribute to a cohesive and opulent look throughout. From sumptuous furnishings to thoughtfully placed accents, every detail exudes a sense of refined living. Our design transcends traditional boundaries, creating a home that not only meets but exceeds expectations, redefining the essence of modern elegance and comfort.",
         carousel_images:[
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/11-min.jpg',
-            'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/2-min.JPG',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/3-min.JPG', 
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/4-min.jpg',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/5-min.jpg',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/6-min.jpg',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/7-min.jpg',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/8-min.JPG',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/9-min.png',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/10-min.png',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/12-min.JPG',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Aaplaghar/13-min.JPG',
+            '../photos/sites/Aapli/1.jpg',
+            '../photos/sites/Aapli/2.jpg',
+            '../photos/sites/Aapli/3.jpg',
+            '../photos/sites/Aapli/4.jpg',
+            '../photos/sites/Aapli/5.jpg',
+            '../photos/sites/Aapli/6.jpg',
+            '../photos/sites/Aapli/7.jpg',
+            '../photos/sites/Aapli/8.jpg',
+            '../photos/sites/Aapli/9.png',
+            '../photos/sites/Aapli/10.png',
+            '../photos/sites/Aapli/11.jpg',
+            '../photos/sites/Aapli/12.jpg',
+            '../photos/sites/Aapli/13.jpg',
+            
          ]
     },
 
@@ -103,17 +111,18 @@ const client_details = [
         date : "Sept. 2023",
         description: "Bathed in natural light, each room is a canvas of vibrant hues—teal, brick red, pastel pink, and royal blue—creating an atmosphere that's both lively and sophisticated. The clever integration of hidden storage ensures a clutter-free oasis, preserving the seamless aesthetic. Welcome to the epitome of modern living, where every detail reflects elegance and innovation. One of the unique features is the versatile entertainment area that seamlessly transforms into a welcoming guest room. Not just as an entertainment hub but also as a storage powerhouse, maximizing utility without compromising style.",
         carousel_images:[
-            
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/1-min.jpg',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/2-min.JPG',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/3-min.JPG',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/5-min.JPG',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/7-min.JPG',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/9-min.JPG',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/10-min.png',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/11-min.jpg',
-             'https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Lighthouse/12-min.jpg',
-
+            '../photos/sites/BlueBird/1.jpg',
+            '../photos/sites/BlueBird/2.jpg',
+            '../photos/sites/BlueBird/3.jpg',
+            '../photos/sites/BlueBird/4.jpg',
+            '../photos/sites/BlueBird/5.jpg',
+            '../photos/sites/BlueBird/6.jpg',
+            '../photos/sites/BlueBird/7.jpg',
+            '../photos/sites/BlueBird/8.jpg',
+            '../photos/sites/BlueBird/9.png',
+            '../photos/sites/BlueBird/10.png',
+            '../photos/sites/BlueBird/11.jpg',
+            '../photos/sites/BlueBird/12.jpg',
          ]
     },
 
@@ -126,9 +135,10 @@ const client_details = [
         date : "Nov. 2022",
         description: "Behold the enchanting metamorphosis of a 10-year-old girl's bedroom – a magical journey brought to life. We've woven dreams into reality, infusing the space with a palette of soft peach and gentle grey, embracing the whimsical allure of terrazzo materials. Transforming simplicity into an invigorating experience, our recent project seamlessly blends a pure and fresh design strategy. A Vaastu Shastra-compliant study area, complete with an extendable table and rattan shutters, harnesses natural light and fosters an energy-efficient, distraction-free environment. Delicate touches like cloud-shaped accessories and pastel linens adorn the transformed space, turning it into a sanctuary that mirrors the innocence and charm of childhood.",
         carousel_images:[
-            "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Dreamroom/1.JPG", 
-            "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Dreamroom/2.JPG", 
-            "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Dreamroom/3.JPG", 
+            '../photos/sites/KumarSurabhi/1.jpg',
+            '../photos/sites/KumarSurabhi/2.jpg',
+            '../photos/sites/KumarSurabhi/3.jpg',
+            '../photos/sites/KumarSurabhi/4.jpg',
          ]
     },
 

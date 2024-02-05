@@ -1,5 +1,6 @@
 .carousel-item img{
     width: 100%;
+    height: 600px;
     object-fit: cover;
     border-radius: 30px;
 }
@@ -58,8 +59,8 @@ a{
 
 .hero-title{
     position: absolute;
-    left: 7%;
-    top: 15%;
+    left: 13%;
+    top: 12%;
     width: 40vw;
     font-size: 5vw;
     line-height: 1.2;
@@ -72,7 +73,7 @@ a{
 
 .hero-description{
     position: absolute;
-    left: 7%;
+    left: 13%;
     top: 35%;
     font-size: 1.6vw;
     font-family:"jost";
@@ -84,8 +85,8 @@ a{
 
 .hero-button{
     position: absolute;
-    left: 7%;
-    top: 46%;
+    left: 13%;
+    top: 47%;
     border-radius: 20px;
     padding: 10px 40px 10px 20px;
     background-image: url("./photos/heroButtonWand.svg");
@@ -139,7 +140,7 @@ a{
 .intro-image img{
     width: 100%;
     height: auto;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 0 326px 0 123px;
 }
 
