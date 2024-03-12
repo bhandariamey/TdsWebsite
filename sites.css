@@ -76,6 +76,7 @@
 }
 
 .background-image{
+    background-repeat: no-repeat;
     background-size: 100%;
     background-image: url("./photos/Sites/BlueBird/top.jpg") !important ;
     padding-top: 350px;
