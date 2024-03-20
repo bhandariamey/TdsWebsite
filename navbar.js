@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded",()=>{
     
 console.log("Inside navbar.js file")
@@ -7,7 +8,7 @@ navigation_bar.innerHTML =
 `
 <div class="container">
 <div class="brand">
- <img width=15% src="https://static.thenounproject.com/png/1919504-200.png" alt="TDS Logo">
+ <img width=15% src="./photos/logo.svg" alt="TDS Logo">
  <a class="navbar-brand" href="./index.html">The Design Spell</a>
 </div>
 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

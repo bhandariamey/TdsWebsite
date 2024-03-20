@@ -1,8 +1,5 @@
 export { client_details };
 
-
-console.log("code in js")
-
 const inProgress = [
     {
         project_type: 'Kitchen',
