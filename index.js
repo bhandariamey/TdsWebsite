@@ -1,37 +1,53 @@
 export { client_details };
 
-const inProgress = [
-    {
-        project_type: 'Kitchen',
-        project_name : "Adinath Society",
-        project_style: "Modern",
-        main_image : "",
-        client_name : "Mrs. Kotecha",
-        date : "InProgress",
-        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
-        carousel_images:{
-            
-        }
-    },
-
-    {
-        project_type: '4BHK',
-        project_name : "Prathamesh Ashish",
-        project_style: "Luxurious",
-        main_image : "",
-        client_name : "Mr. Bhandari",
-        date : "InProgress",
-        description: "The Dry Creek Building brings together key business partners in a common location and is designed to help drive collaboration and innovation, ultimately helping to move Gallo’s business forward. The new office building complements existing structures and is a central location between the campus’s multiple buildings, making is a vital hub for employees to gather, socialize, and collaborate.",
-        carousel_images:{
-            
-        }
-    },
-]
-
 const client_details = [
     {
-        project_type: '2BHK | 790 sqft',
-        project_name : "Mantra Monarch",
+        project_type: '4BHK | 2400 sqft',
+        project_name : "Heaven & Hue",
+        project_style: "Modern",
+        client_name : "Dr. Nilesh Bhandari",
+        date : "Jan. 2025",
+        description: "This thoughtfully curated 4BHK is a celebration of aesthetic design and intentional living. Every element, from spatial planning to material selection, reflects creativity, customisation, uniqueness, and a touch of challenge in execution—crafted for upscale, modern lifestyles. The home radiates brightness and freshness, subtly accentuated with hints of blue, bringing a calming vibrancy to shared spaces. The master bedroom stands out with a luxurious copper matte PU finish, while the other bedroom features earthy, grounding tones that evoke warmth and tranquility. A cheerful kids’ bedroom is designed for an artistic young mind, complete with smart storage and accessible art supplies. Clean lines, minimal detailing, and a sense of spaciousness create a harmonious visual language throughout. The multipurpose room showcases functional innovation with smart furniture that effortlessly adapts to changing needs. Every corner of this home balances beauty with utility—offering a warm, homey feel wrapped in refined modernity.",
+        carousel_images:[
+            '../photos/sites/PrathameshAshish/LIV-1.jpg',
+            '../photos/sites/PrathameshAshish/TV.jpg',
+            '../photos/sites/PrathameshAshish/Dining-1.jpg',
+            '../photos/sites/PrathameshAshish/Dining-2.jpg',
+            '../photos/sites/PrathameshAshish/KIT-1.jpg',
+            '../photos/sites/PrathameshAshish/KIT-2.jpg',
+            '../photos/sites/PrathameshAshish/KIT-3.jpg',
+            '../photos/sites/PrathameshAshish/MB-1.jpg',
+            '../photos/sites/PrathameshAshish/MB-2.jpg',
+            '../photos/sites/PrathameshAshish/GB-1.jpg',
+            '../photos/sites/PrathameshAshish/KIDS-1.jpg',
+            '../photos/sites/PrathameshAshish/KIDS-2.jpg',
+        ]
+    },
+    {
+        project_type: '3BHK | 1200 sqft',
+        project_name : "50 Shades of Beige",
+        project_style: "Modern",
+        client_name : "Mr. Sisodiya",
+        date : "Dec. 2024",
+        description: "This custom-designed 3BHK home is a perfect blend of warmth, charm, and timeless functionality. Every inch has been thoughtfully optimised, reflecting a deep sense of personalisation and aesthetic balance. The interiors are wrapped in earthy tones and playful shades of beige—used in quirky, creative ways to evoke a cozy, picturesque ambiance. Subtle curves soften the design language, while smart storage solutions, like hidden compartments for everyday masalas, ensure seamless functionality. The kids’ room features a mobile tent with their names delicately carved, and teethers repurposed as furniture handles—preserving memories in design. Bedrooms carry a vintage charm with a modern touch, including one serene grey room that stands out with character. A customised dining space and cleverly designed kitchen complete this soulful, story-filled home.",
+        carousel_images:[
+            '../photos/sites/ParkAstra/1.jpg',
+            '../photos/sites/ParkAstra/2.jpg',
+            '../photos/sites/ParkAstra/3.jpg',
+            '../photos/sites/ParkAstra/4.jpg',
+            '../photos/sites/ParkAstra/5.jpg',
+            '../photos/sites/ParkAstra/6.jpg',
+            '../photos/sites/ParkAstra/7.jpg',
+            '../photos/sites/ParkAstra/8.jpg',
+            '../photos/sites/ParkAstra/9.jpg',
+            '../photos/sites/ParkAstra/10.jpg',
+            '../photos/sites/ParkAstra/11.jpg',
+            '../photos/sites/ParkAstra/12.jpg'
+        ]
+    },
+    {
+        project_type: '2BHK | 1050 sqft',
+        project_name : "Monarch Manor",
         project_style: "Modern",
         client_name : "Mr. Ghotkar",
         date : "Nov. 2023",
@@ -52,7 +68,7 @@ const client_details = [
     },
     {
         project_name : "Thunderstorm",
-        project_type: '4.5 BHK | 2400 sqft',
+        project_type: '4.5 BHK | 2900 sqft',
         project_style: "Modern",
         main_image : "https://s3.ap-south-1.amazonaws.com/thedesignspell.netlify.app/photos/sites/Thunderstorm.jpg",
         client_name : "Mr. Jain",
@@ -75,7 +91,7 @@ const client_details = [
     },
     {
         project_name : "Aapla ghar",
-        project_type: '3 BHK | 1170 sqft',
+        project_type: '3 BHK | 1500 sqft',
         project_style: "Warm",
         main_image : "./photos/sites/aapli.jpg",
         client_name : "Mr. Sheth",
@@ -101,7 +117,7 @@ const client_details = [
 
     {
         project_name : "Light House",
-        project_type: '3 BHK | 1330 sqft',
+        project_type: '3 BHK | 1700 sqft',
         project_style: "Breezy",
         main_image : "./photos/sites/BlueBird.jpeg",
         client_name : "Mr. Desarda",
