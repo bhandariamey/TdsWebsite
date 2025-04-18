@@ -2,8 +2,8 @@ const contactUSBanner = document.getElementById("contact-us")
 contactUSBanner.innerHTML = 
 `
 <h2 style="font-size: 26px; font-family: DM Serif Display; font-weight: 600; line-height: 1.5; text-align: center; margin-top: 40px; margin-bottom: 30px;">Contact Us</h2>
-<p>Flat no. 104 : Vrundavan Apartments, Near Golden Wheel Hotel , </br>Indian Oil Petrol Pump Lane, Navi Peth, Pune, Maharashtra 411030</p>
-<p>sanjana@thedesignspell.com</p>
+<p>Flat no. 1305 : Kumar Surabhi, Opp. Sai Temple , </br>Satara Road, Pune, Maharashtra 411009</p>
+<p><a href="mailto:sanjana@thedesignspell.com">sanjana@thedesignspell.com</a></p>
 <p>(+91) 90750-40505</p>
 <div class="d-flex flex-row justify-content-center text-center mt-4">
   <div class="col-1 d-inline-block">
