@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
       <div class="carousel-inner">
               ${site.carousel_images.map((carouselImage, index) => `
-                <div key=${index} class="carousel-item ${index === 0 ? 'active' : ''}" data-bs-interval="3000" >
+                <div key=${index} class="carousel-item ${index === 0 ? 'active' : ''}" data-bs-interval="6000" >
                   <img loading="lazy" src=${carouselImage} class="d-block w-100" alt="...">
                 </div>
               `).join('')}
