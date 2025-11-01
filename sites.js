@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       <div class="carousel-inner">
               ${site.carousel_images.map((carouselImage, index) => `
                 <div key=${index} class="carousel-item ${index === 0 ? 'active' : ''}" data-bs-interval="6000" >
-                  <img src=${carouselImage} class="d-block w-100" alt="...">
+                  <img loading="lazy" src=${carouselImage} class="d-block w-100" alt="...">
                 </div>
               `).join('')}
             </div>
