@@ -2,7 +2,7 @@ const contactUSBanner = document.getElementById("contact-us")
 contactUSBanner.innerHTML = 
 `
 <h2 style="font-size: 26px; font-family: DM Serif Display; font-weight: 600; line-height: 1.5; text-align: center; margin-top: 40px; margin-bottom: 30px;">Contact Us</h2>
-<p>Flat no. 1305 : Kumar Surabhi, Opp. Sai Temple , </br>Satara Road, Pune, Maharashtra 411009</p>
+<p>The Design spell office no. 2 first floor, Shubham bunglow, plot no. 11, maharahtra housing society pune-satara road 411009</p>
 <p><a href="mailto:sanjana@thedesignspell.com">sanjana@thedesignspell.com</a></p>
 <p>(+91) 90750-40505</p>
 <div class="d-flex flex-row justify-content-center text-center mt-4">
