@@ -1,0 +1,16 @@
+# Robots.txt for The Design Spell Website
+# This file tells web crawlers which parts of your site they can crawl
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://thedesignspell.com/sitemap.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Disallow any paths you don't want indexed (add as needed)
+# Disallow: /admin/
+# Disallow: /temp/
+# Disallow: /private/
